@@ -33,7 +33,7 @@ class ArticleList extends React.Component {
   render() {
     return (
       <div>
-        <Articles data={listData} />
+        <Articles data={this.state.articles} />
       </div>
     );
   }

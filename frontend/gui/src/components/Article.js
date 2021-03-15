@@ -57,9 +57,9 @@ const Articles = (props) => {
           <List.Item.Meta
             avatar={<Avatar src={item.avatar} />}
             title={<a href={item.href}>{item.title}</a>}
-            description={item.description}
+            description={item.radio}
           />
-          {item.content}
+          {item.multicheck}
         </List.Item>
       )}
     />
