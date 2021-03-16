@@ -7,4 +7,4 @@ class ArticleSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Article
-        fields = ('title', 'content', 'radio', 'multicheck')
+        fields = ('id', 'title', 'content', 'radio', 'multicheck')
